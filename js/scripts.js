@@ -1,5 +1,5 @@
 function calc(x1, x2, operator) {
-    return `${x1} ${operator}${x2}`
+    return eval`${x1} ${operator}${x2}`
 }
 somar(1, 2);
 
